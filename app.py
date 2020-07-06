@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 from PIL import Image
 
-pickle_in = open("Haberman_model.sav","rb")
+pickle_in = open("models/Haberman_model.sav","rb")
 classifier=pickle.load(pickle_in)
 sclr=classifier[1]
 classifier=classifier[0]
